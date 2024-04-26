@@ -1,0 +1,19 @@
+table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: rgb(62, 36, 36);
+  color: beige;
+  font-size: large;
+}
+
+th {
+  border: 2px solid black;
+  border-bottom: none;
+  padding: 8px;
+  width: 200px;
+}
