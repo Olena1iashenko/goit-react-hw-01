@@ -3,12 +3,12 @@ import TransactionHistoryItem from "../TransactionHistoryItem/TransactionHistory
 
 const TransactionHistory = ({ items }) => {
   return (
-    <table>
-      <thead>
+    <table className={s.table}>
+      <thead className={s.thead}>
         <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+          <th className={s.th}>Type</th>
+          <th className={s.th}>Amount</th>
+          <th className={s.th}>Currency</th>
         </tr>
       </thead>
       <tbody>

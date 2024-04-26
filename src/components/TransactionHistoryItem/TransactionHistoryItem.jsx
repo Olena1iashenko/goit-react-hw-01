@@ -2,10 +2,10 @@ import s from "./TransactionHistoryItem.module.css";
 
 const TransactionHistoryItem = ({ type, amount, currency }) => {
   return (
-    <tr>
-      <td>{type}</td>
-      <td>{amount}</td>
-      <td>{currency}</td>
+    <tr className={s.tr}>
+      <td className={s.td}>{type}</td>
+      <td className={s.td}>{amount}</td>
+      <td className={s.td}>{currency}</td>
     </tr>
   );
 };
